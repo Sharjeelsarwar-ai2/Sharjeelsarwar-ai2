@@ -58,6 +58,14 @@ Full list, with screenshots, is on my portfolio: https://sharjeel-portfolio-shar
 
 ---
 
+## 📈 Contribution graph
+
+Generated from my real GitHub activity — not typed in, not invented:
+
+![Sharjeel's GitHub contribution graph](https://ghchart.rshah.org/C6F24E/Sharjeelsarwar-ai2)
+
+---
+
 ## 📊 GitHub stats
 
 These cards are generated live from this account — no counts are typed in here by hand:
