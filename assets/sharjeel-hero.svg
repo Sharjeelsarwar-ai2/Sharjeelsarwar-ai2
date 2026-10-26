@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Sharjeel Sarwar — Aspiring AI Engineer">
+  <defs>
+    <linearGradient id="sharjeel-hero-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0A0E08"/>
+      <stop offset="55%" stop-color="#10170C"/>
+      <stop offset="100%" stop-color="#0A0E08"/>
+    </linearGradient>
+    <linearGradient id="sharjeel-hero-lime" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#C6F24E"/>
+      <stop offset="55%" stop-color="#3ED6C5"/>
+      <stop offset="100%" stop-color="#C6F24E"/>
+    </linearGradient>
+    <radialGradient id="sharjeel-hero-glow" cx="0.78" cy="0.28" r="0.55">
+      <stop offset="0%" stop-color="#C6F24E" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#C6F24E" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="sharjeel-hero-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#C6F24E" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="320" fill="url(#sharjeel-hero-bg)"/>
+  <rect width="1200" height="320" fill="url(#sharjeel-hero-grid)"/>
+  <rect width="1200" height="320" fill="url(#sharjeel-hero-glow)"/>
+  <circle cx="1020" cy="90" r="62" fill="none" stroke="#3ED6C5" stroke-opacity="0.45" stroke-width="1.5">
+    <animate attributeName="r" values="62;68;62" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1020" cy="90" r="38" fill="none" stroke="#C6F24E" stroke-opacity="0.6" stroke-width="1.5">
+    <animateTransform attributeName="transform" type="rotate" from="0 1020 90" to="360 1020 90" dur="18s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1020" cy="52" r="5" fill="#C6F24E"/>
+  <path d="M 60 250 C 260 210, 420 270, 620 235 S 980 215, 1140 240" fill="none" stroke="url(#sharjeel-hero-lime)" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 8">
+    <animate attributeName="stroke-dashoffset" from="140" to="0" dur="8s" repeatCount="indefinite"/>
+  </path>
+  <text x="60" y="110" font-family="monospace" font-size="22" fill="#3ED6C5" letter-spacing="3">HI, I'M</text>
+  <text x="58" y="170" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="800" fill="#EDF2E4">Sharjeel Sarwar</text>
+  <text x="60" y="210" font-family="monospace" font-size="24" fill="#C6F24E">Aspiring AI Engineer  |  GenAI · RAG · Agentic AI</text>
+  <text x="60" y="242" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#9AA79A">BSCS · UET Lahore  —  building practical AI software, tested in hackathons.</text>
+  <rect x="60" y="262" width="220" height="6" rx="3" fill="url(#sharjeel-hero-lime)">
+    <animate attributeName="width" values="220;280;220" dur="5s" repeatCount="indefinite"/>
+  </rect>
+</svg>
